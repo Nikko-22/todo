@@ -1,1 +1,94 @@
-*{box-sizing:border-box;margin:0;padding:0}:root{--text-color: #ffffff}body{background-color:#1b1b1b;font-family:Gill Sans,Gill Sans MT,Calibri,Trebuchet MS,sans-serif;padding:2rem}.main__form{display:flex;align-items:center;justify-content:center}.main__list{display:flex;place-self:center;margin-top:3rem;max-width:900px;width:100%}.main__list label{display:block}.main__list button{display:block;cursor:pointer;color:var(--text-color)}.ul_list{display:flex;flex-direction:column;gap:1.5rem;list-style:none;max-width:900px;width:100%}.ul_list li{background:var(--text-color);display:flex;justify-content:space-between;padding:.5rem;border-radius:15px}.ul_list label{display:flex;justify-content:center;align-items:center}.ul_list button{background-color:brown;border:none;padding:.3rem;cursor:pointer}.ul_list h1{color:var(--text-color)}.form__action{display:flex;gap:1rem;flex-direction:column;align-items:start;justify-content:center;width:100%;max-width:900px}.form__action label{color:var(--text-color);font-size:2.5rem}.form__action input{width:100%;height:35px;background-color:brown;color:var(--text-color);border:none;outline:none;border-radius:10px}.form__action button{width:100%;height:35px;background-color:brown;border:none;outline:none;border-radius:10px;cursor:pointer;color:var(--text-color)}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --text-color: #ffffff;
+}
+body {
+  background-color: #1b1b1b;
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+  padding: 2rem;
+}
+.main__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__list {
+  display: flex;
+  place-self: center;
+  margin-top: 3rem;
+  max-width: 900px;
+  width: 100%;
+}
+.main__list label {
+  display: block;
+}
+.main__list button {
+  display: block;
+  cursor: pointer;
+  color: var(--text-color);
+}
+.ul_list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  list-style: none;
+  max-width: 900px;
+  width: 100%;
+}
+.ul_list li {
+  background: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+.ul_list label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ul_list button {
+  background-color: brown;
+  border: none;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+.ul_list h1 {
+  color: var(--text-color);
+}
+.form__action {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+}
+.form__action label {
+  color: var(--text-color);
+  font-size: 2.5rem;
+}
+.form__action input {
+  width: 100%;
+  height: 35px;
+  background-color: brown;
+  color: var(--text-color);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.form__action button {
+  width: 100%;
+  height: 35px;
+  background-color: brown;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--text-color);
+}
